@@ -1,0 +1,18 @@
+----Hallazgos y Conclusiones del ejercicio---
+
+Hallazgos:
+
+1. Crear un nuevo usuario en signup: Al probar el registro de un nuevo usuario, el servicio signup respondió correctamente, permitiendo la creación de una nueva cuenta sin errores, esto confirma que el proceso de registro funciona como se espera para usuarios nuevos.
+
+2. Intentar crear un usuario ya existente: En el caso de intentar registrar un usuario que ya existe, el sistema devolvió una respuesta indicando que el usuario ya estaba registrado, esto evidencia que el servicio cuenta con un mecanismo de control para evitar la duplicación de cuentas.
+
+3. Usuario y password correctos en login: Al realizar una prueba de inicio de sesión (login) con credenciales válidas (usuario y contraseña correctos), el sistema respondió de manera exitosa otorgando un AuthToken, permitiendo al usuario autenticarse sin problemas, esto muestra que el flujo de autenticación funciona adecuadamente cuando se proporcionan datos correctos.
+
+4. Usuario y password incorrectos en login: Al intentar iniciar sesión con credenciales incorrectas, el sistema devolvió un mensaje de error, indicando que el usuario no existe, esto demuestra que el sistema maneja correctamente los intentos de acceso no autorizados.
+
+
+Conclusiones: 
+
+1. Correcto funcionamiento de los servicios: Tanto el registro de nuevos usuarios como el inicio de sesión funcionan según lo esperado en condiciones normales, manejando con éxito tanto casos positivos como errores comunes (duplicación de usuarios y credenciales incorrectas).
+
+2. Se realizó el ejercicio de APIS de la mejor manera posible, especificando cada detalle posible para evitar errores y entregar un excelente trabajo.
