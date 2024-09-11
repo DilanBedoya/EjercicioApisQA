@@ -63,8 +63,11 @@ mvn -U dependency:resolve
 mvn clean test
 ````
 
+![1](https://github.com/user-attachments/assets/7d6286b9-d4ee-40e2-bcfa-64c93c9822ee)
 
+![2](https://github.com/user-attachments/assets/c4707eae-1195-4f77-8332-ac1ec0cfc8cd)
 
+![3](https://github.com/user-attachments/assets/34c01557-5e73-4b0e-b1de-9e047d3887f2)
 
 
 
