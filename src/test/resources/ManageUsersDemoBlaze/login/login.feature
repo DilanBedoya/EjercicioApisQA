@@ -3,7 +3,8 @@ Feature: Demoblaze API Login Tests
   Background:
     * url 'https://api.demoblaze.com'
     * path 'login'
-    * request { "username": "#(username)", "password": "#(password)" }
+    * def jsonResponse = read('./userLogin.json')
+    * request jsonResponse
 
   Scenario Outline: Usuario y password correcto en login
     When method post

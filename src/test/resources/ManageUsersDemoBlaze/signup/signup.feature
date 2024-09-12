@@ -3,7 +3,8 @@ Feature: Demoblaze API Signup Tests
   Background:
     * url 'https://api.demoblaze.com'
     * path 'signup'
-    * request { "username": "#(username)", "password": "#(password)" }
+    * def jsonResponse = read('./userSignup.json')
+    * request jsonResponse
 
   Scenario Outline: Crear un nuevo usuario en signup
     When method post
@@ -12,8 +13,8 @@ Feature: Demoblaze API Signup Tests
 
     #Especificar username y password nuevo y único para pasar el escenario correctamente
     Examples:
-      | username     | password  |
-      | DilanBedoya16 | dilanbedoya |
+      | username      | password    |
+      | DilanBedoya17 | dilanbedoya |
 
 
   Scenario Outline: Intentar crear un usuario ya existente
