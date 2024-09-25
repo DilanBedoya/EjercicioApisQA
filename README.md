@@ -51,7 +51,7 @@ Para ejecutar este proyecto, debes tener lo siguiente configurado en tu máquina
    - **IMPORTANTE**: Borrar la carpeta Build y ejecutar el método `ReportCucumber` para generar un nuevo reporte en cucumber
 
 ## 4. Información adicional
-- En el  ``  Scenario Outline: Crear un nuevo usuario en signup`` especificar en el example un usuario no **Existente** para que la prueba pase sin **Errores**
+- En el  ``Scenario: Crear un nuevo usuario en signup`` especificar en el json ``Signup.json`` y `newUser`un usuario no **Existente** para que la prueba pase sin **Errores**
 
 - En caso de problemas con Dependencias ejecutar el siguiente comando:
 ````

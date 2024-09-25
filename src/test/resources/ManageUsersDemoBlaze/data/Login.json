@@ -1,0 +1,14 @@
+{
+  "UserAndPasswordCorrect": {
+    "username": "DilanBedoya22",
+    "password": "dilanbedoya"
+  },
+  "UserAndPasswordIncorrect": {
+    "username": "DilanBedoya743",
+    "password": "DilanBedoya743"
+  },
+  "UserCorrectAndPasswordIncorrect": {
+    "username": "DilanBedoya22",
+    "password": "DilanBedoya743"
+  }
+}
